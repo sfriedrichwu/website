@@ -206,8 +206,10 @@ p.copyright {
 }
 
 .map{
-  text-align: center;
-  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
 }
 
 .content-section-a-partners {
