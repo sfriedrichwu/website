@@ -205,6 +205,10 @@ p.copyright {
   border-top: 3px solid #e7e7e7;
 }
 
+.map{
+  text-align: center;
+  width: 300px;
+}
 
 .content-section-a-partners {
   padding: 30px 0;

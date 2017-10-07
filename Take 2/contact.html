@@ -76,14 +76,41 @@
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">CONTACT US<br>
-            <p class="lead">Email or Meet Us at the Garage</p>
+            <a class="nav-link" href="mailto:wuracing@gmail.com?Subject=Hello%20Re:Contact%20us">wuracing@gmail.com</a>
+            <p class="lead">Or meet us at the garage</p>
           </div>
         </div>
 
       </div>
+      <body>
+
+      
       <!-- /.container -->
     </section>
+    <section class="map">
+      <h5>Shop Map</h5>
 
+      <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+      <script>
+      function myMap() {
+      var uluru = {lat: 38.64943, lng: -90.306591};
+      var mapOptions = {
+          center: uluru,
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+      
+      </script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4TvazLD0LfI2Is9obXWO8i6_gVfn_MAc&callback=myMap"></script>
+    </section>
 
     <!-- Footer -->
     <footer>
